@@ -1,0 +1,22 @@
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\bin\Debug\TestLogger.exe.config
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\bin\Debug\TestLogger.exe
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\bin\Debug\TestLogger.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\obj\Debug\TestLogger.exe
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\obj\Debug\TestLogger.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\TestLogger\obj\Debug\TestLogger.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project2\TestLogger\bin\Debug\TestLogger.exe.config
+C:\Users\harry\Desktop\project2\TestLogger\bin\Debug\TestLogger.exe
+C:\Users\harry\Desktop\project2\TestLogger\bin\Debug\TestLogger.pdb
+C:\Users\harry\Desktop\project2\TestLogger\bin\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project2\TestLogger\bin\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project2\TestLogger\obj\Debug\TestLogger.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project2\TestLogger\obj\Debug\TestLogger.exe
+C:\Users\harry\Desktop\project2\TestLogger\obj\Debug\TestLogger.pdb
+C:\Users\harry\Desktop\project4\TestLogger\bin\Debug\TestLogger.exe.config
+C:\Users\harry\Desktop\project4\TestLogger\bin\Debug\TestLogger.exe
+C:\Users\harry\Desktop\project4\TestLogger\bin\Debug\TestLogger.pdb
+C:\Users\harry\Desktop\project4\TestLogger\bin\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project4\TestLogger\bin\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project4\TestLogger\obj\Debug\TestLogger.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project4\TestLogger\obj\Debug\TestLogger.exe
+C:\Users\harry\Desktop\project4\TestLogger\obj\Debug\TestLogger.pdb

@@ -1,0 +1,18 @@
+Test Name  =  First Test
+Test Author = Jim Fawcett
+Test Time = 10/4/2016 11:33:33 PM
+error: Method 'getLog' in type 'td1.td1' from assembly 'td1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+time: 10/4/2016 11:33:33 PM
+Summary : not execuatable
+
+
+
+Test Name  =  Second Test
+Test Author = Jim Fawcett
+Test Time = 10/4/2016 11:33:33 PM
+error: Method 'getLog' in type 'td2.td2' from assembly 'td2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+time: 10/4/2016 11:33:33 PM
+Summary : not execuatable
+
+
+

@@ -1,0 +1,24 @@
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\bin\Debug\XMLDecoder.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\bin\Debug\BlockingQueue.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\bin\Debug\BlockingQueue.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\obj\Debug\XMLDecoder.csprojResolveAssemblyReference.cache
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\obj\Debug\XMLDecoder.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\bin\Debug\XMLDecoder.exe.config
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\bin\Debug\XMLDecoder.exe
+c:\users\harry\documents\visual studio 2015\Projects\project2\XMLDecoder\obj\Debug\XMLDecoder.exe
+C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\XMLDecoder.exe.config
+C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\XMLDecoder.exe
+C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\XMLDecoder.pdb
+C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\BlockingQueue.dll
+C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\BlockingQueue.pdb
+C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.exe
+C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.pdb
+C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.exe.config
+C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.exe
+C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.pdb
+C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\BlockingQueue.dll
+C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\BlockingQueue.pdb
+C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.exe
+C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.pdb

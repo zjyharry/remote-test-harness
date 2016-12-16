@@ -1,0 +1,21 @@
+Test Name  =  First Test
+Test Author = me
+Test Time = 11/21/2016 10:47:18 PM
+test library is tc1.dll
+Test result : pass
+test library is tc2.dll
+error: Attempted to divide by zero.
+time: 11/21/2016 10:47:24 PM
+Summary : not execuatable
+
+
+
+Test Name  =  Second Test
+Test Author = me
+Test Time = 11/21/2016 10:47:18 PM
+test library is tc2.dll
+Test result : fail
+Summary : fail
+
+
+

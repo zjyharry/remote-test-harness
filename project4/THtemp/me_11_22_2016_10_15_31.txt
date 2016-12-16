@@ -1,0 +1,18 @@
+Test Name  =  First Test
+Test Author = me
+Test Time = 11/22/2016 10:15:36 AM
+error: Could not load file or assembly 'file:///C:\Users\harry\Desktop\project2\THtemp\td1.dll' or one of its dependencies. The system cannot find the file specified.
+time: 11/22/2016 10:15:36 AM
+Summary : not execuatable
+
+
+
+Test Name  =  Second Test
+Test Author = me
+Test Time = 11/22/2016 10:15:36 AM
+error: Could not load file or assembly 'file:///C:\Users\harry\Desktop\project2\THtemp\td2.dll' or one of its dependencies. The system cannot find the file specified.
+time: 11/22/2016 10:15:36 AM
+Summary : not execuatable
+
+
+

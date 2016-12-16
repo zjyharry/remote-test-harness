@@ -1,0 +1,33 @@
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\td1.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\ITestInterface.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\tc1.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\tc2.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\ITestInterface.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\tc1.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\tc2.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\obj\Debug\td1.csprojResolveAssemblyReference.cache
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\obj\Debug\td1.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\td1.dll.config
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\bin\Debug\td1.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\td1\obj\Debug\td1.dll
+C:\Users\harry\Desktop\project2\td1\bin\Debug\td1.dll.config
+C:\Users\harry\Desktop\project2\td1\bin\Debug\td1.dll
+C:\Users\harry\Desktop\project2\td1\bin\Debug\td1.pdb
+C:\Users\harry\Desktop\project2\td1\bin\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project2\td1\bin\Debug\tc1.dll
+C:\Users\harry\Desktop\project2\td1\bin\Debug\tc2.dll
+C:\Users\harry\Desktop\project2\td1\bin\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project2\td1\bin\Debug\tc1.pdb
+C:\Users\harry\Desktop\project2\td1\bin\Debug\tc2.pdb
+C:\Users\harry\Desktop\project2\reposetory\td1.dll.config
+C:\Users\harry\Desktop\project2\reposetory\td1.dll
+C:\Users\harry\Desktop\project2\reposetory\td1.pdb
+C:\Users\harry\Desktop\project2\td1\obj\Debug\td1.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project2\td1\obj\Debug\td1.dll
+C:\Users\harry\Desktop\project2\td1\obj\Debug\td1.pdb
+C:\Users\harry\Desktop\project4\reposetory\td1.dll.config
+C:\Users\harry\Desktop\project4\reposetory\td1.dll
+C:\Users\harry\Desktop\project4\reposetory\td1.pdb
+C:\Users\harry\Desktop\project4\td1\obj\Debug\td1.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project4\td1\obj\Debug\td1.dll
+C:\Users\harry\Desktop\project4\td1\obj\Debug\td1.pdb

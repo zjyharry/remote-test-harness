@@ -1,0 +1,4 @@
+the only difference between project 3 and 4 is:
+I design a hand-shake method to do the communication
+but in project 4 I decided that we dont need the hand-shake all the time, no news is best news. Only when there is some problems the receiver will need to reply to the sender
+

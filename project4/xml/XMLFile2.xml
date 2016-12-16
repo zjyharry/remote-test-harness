@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testRequest>
+  <author>J Z</author>
+  <reposetory>../../../reposetory/</reposetory> 
+  <test name="First Test">
+    <testDriver>td1.dll</testDriver>
+    <library>tc1.dll</library>
+    <library>tc2.dll</library>
+  </test>
+  <test name="Second Test">
+    <testDriver>td2.dll</testDriver>
+    <library>tc2.dll</library>
+  </test>
+  <test name="END">
+    <testDriver>END</testDriver>
+    <library>END</library>
+  </test>
+</testRequest>

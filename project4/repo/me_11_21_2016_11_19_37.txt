@@ -1,0 +1,21 @@
+Test Name  =  First Test
+Test Author = me
+Test Time = 11/21/2016 11:20:05 PM
+test library is tc1.dll
+Test result : pass
+test library is tc2.dll
+error: Attempted to divide by zero.
+time: 11/21/2016 11:20:33 PM
+Summary : not execuatable
+
+
+
+Test Name  =  Second Test
+Test Author = me
+Test Time = 11/21/2016 11:20:05 PM
+error: Could not load file or assembly 'file:///C:\Users\harry\Desktop\project2\THtemp\td2.dll' or one of its dependencies. The system cannot find the file specified.
+time: 11/21/2016 11:20:33 PM
+Summary : not execuatable
+
+
+

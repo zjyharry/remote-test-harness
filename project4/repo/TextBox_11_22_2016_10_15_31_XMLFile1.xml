@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testRequest>
+  <author>me</author>
+  <test name="First Test">
+    <testDriver>td1.dll</testDriver>
+    <library>tc1.dll</library>
+    <library>tc2.dll</library>
+  </test>
+  <test name="Second Test">
+    <testDriver>td2.dll</testDriver>
+    <library>tc2.dll</library>
+  </test>
+  <test name="END">
+    <testDriver>END</testDriver>
+    <library>END</library>
+  </test>
+  <datetime>11_22_2016_10_15_31</datetime>
+  <reposetory>../../../THtemp/</reposetory>
+</testRequest>

@@ -1,0 +1,17 @@
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\bin\Debug\ITestInterface.dll.config
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\bin\Debug\ITestInterface.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\bin\Debug\ITestInterface.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\obj\Debug\ITestInterface.dll
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\obj\Debug\ITestInterface.pdb
+c:\users\harry\documents\visual studio 2015\Projects\project2\ITestInterface\obj\Debug\ITestInterface.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project2\ITestInterface\bin\Debug\ITestInterface.dll.config
+C:\Users\harry\Desktop\project2\ITestInterface\bin\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project2\ITestInterface\bin\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project2\ITestInterface\obj\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project2\ITestInterface\obj\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project4\ITestInterface\bin\Debug\ITestInterface.dll.config
+C:\Users\harry\Desktop\project4\ITestInterface\bin\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project4\ITestInterface\bin\Debug\ITestInterface.pdb
+C:\Users\harry\Desktop\project4\ITestInterface\obj\Debug\ITestInterface.csprojResolveAssemblyReference.cache
+C:\Users\harry\Desktop\project4\ITestInterface\obj\Debug\ITestInterface.dll
+C:\Users\harry\Desktop\project4\ITestInterface\obj\Debug\ITestInterface.pdb
