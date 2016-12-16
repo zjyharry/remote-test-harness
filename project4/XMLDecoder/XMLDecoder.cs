@@ -1,4 +1,24 @@
-﻿//1130-
+﻿//Author: Jiayi Zou
+//this is the XML decoder, which contians a TestData class which contains all imformation we need in a single test and a decoder which can decode a xml stream and get all testdata in it
+//all rights reserved
+//version 1.0
+//Jiayi Zou 10/7/16
+//version 2.0
+//modify:
+//add the CommandData, CommandDecoder, CommandEncoder class to set the standard of the command in the project
+//public interface:
+//TestData:
+//public void show() show all information in the testdata
+//commandData:
+//commandData() constructor
+//commandDecoder:
+//public CommandDecoder(string str) constructor, set the string need to be decoded
+//public CommandData parse() decode tje command, stored in a commandData object
+//commandEncoder:
+//public CommandEncoder(CommandData cmd) constructor, set the commandDate need to be incode
+//public string encode() encode the commandData into a string
+
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,6 +32,7 @@ namespace TestHarness
     
     public class TestData
     {
+        public bool success { get; set; }
         public string testName { get; set; }
         public string author { get; set; }
         public string datetime { get; set; }
@@ -19,16 +40,12 @@ namespace TestHarness
         public String testDriver { get; set; }
         public List<string> testCode { get; set; }
         public String repo { get; set; }
-        public void show()
+        public void show()//show all information in the testdata
         {
             Console.Write("\n  {0,-12} : {1}", "test name", testName);
-
             Console.Write("\n  {0,12} : {1}", "author", author);
-
             Console.Write("\n  {0,12} : {1}", "reposetory", repo);
-
             Console.Write("\n  {0,12} : {1}", "time stamp", timeStamp);
-
             Console.Write("\n  {0,12} : {1}", "test driver", testDriver);
             foreach (string library in testCode)
             {
@@ -36,21 +53,20 @@ namespace TestHarness
             }
         }
     }
-    public class Command
+    public class CommandData//include all the imformation for the test harness to find the file in the repository and so on
     {
-        public Command()
+        public CommandData()//constructor
         {
             dllFiles = new List<string>();
         }
-        public string source { get; set; }
-        public string direc { get; set; }
-        public string com { get; set; }
-        public string Author { get; set; }
-        public string Name { get; set; }
+        public string from { get; set; }
+        public string to { get; set; }
+        public string command { get; set; }
+        public string testAuthor { get; set; }
+        public string testName { get; set; }
         public string dateTime { get; set; }
         public string xmlFile { get; set; }
         public List<string> dllFiles { get; set; }
-
         public string url { get; set; }
     }
 
@@ -64,19 +80,18 @@ namespace TestHarness
             _doc = XDocument.Parse(str);
             _dllFiles = new List<string>();
         }
-        public Command parse()
+        public CommandData parse()
         {
-            Command data = new Command();
+            CommandData data = new CommandData();
             if (_doc == null)
             {
-                data.com = "NOCOMMAND";
+                data.command = "NOCOMMAND";
             }
-            data.source = _doc.Descendants("source").First().Value;
-            data.direc = _doc.Descendants("direc").First().Value;
-            data.Author = _doc.Descendants("Author").First().Value;
-            data.com = _doc.Descendants("com").First().Value;
-
-            data.Name = _doc.Descendants("Name").First().Value;
+            data.from = _doc.Descendants("from").First().Value;
+            data.to = _doc.Descendants("to").First().Value;
+            data.testAuthor = _doc.Descendants("testAuthor").First().Value;
+            data.command = _doc.Descendants("command").First().Value;
+            data.testName = _doc.Descendants("testName").First().Value;
             data.dateTime = _doc.Descendants("dateTime").First().Value;
             data.xmlFile = _doc.Descendants("xmlFile").First().Value;
             data.url = _doc.Descendants("url").First().Value;
@@ -94,21 +109,22 @@ namespace TestHarness
     public class CommandEncoder
     {
         private XDocument xmlstr;
-        private Command _cmd;
-        public CommandEncoder(Command cmd)
+        private CommandData _cmd;
+        public CommandEncoder(CommandData cmd)
         {
-            xmlstr = new XDocument();_cmd = cmd;
+            xmlstr = new XDocument();
+            _cmd = cmd;
         }
         public string encode()
         {
             xmlstr = new XDocument();
             xmlstr.Declaration = new XDeclaration("1.0", "utf-8", "yes");
             XElement root = new XElement("message");
-            XElement from = new XElement("source", _cmd.source);
-            XElement to = new XElement("direc", _cmd.direc);
-            XElement author = new XElement("Author",_cmd.Author);
-            XElement command = new XElement("com",_cmd.com);
-            XElement testName = new XElement("Name",_cmd.Name);
+            XElement from = new XElement("from", _cmd.from);
+            XElement to = new XElement("to", _cmd.to);
+            XElement author = new XElement("testAuthor",_cmd.testAuthor);
+            XElement command = new XElement("command",_cmd.command);
+            XElement testName = new XElement("testName",_cmd.testName);
             XElement dateTime = new XElement("dateTime",_cmd.dateTime);
             XElement xmlFile = new XElement("xmlFile",_cmd.xmlFile);
             XElement url = new XElement("url",_cmd.url);
@@ -130,18 +146,17 @@ namespace TestHarness
             }
             return xmlstr.ToString();
         }
-       
     }
     public class XmlDecoder
     {
         private XDocument doc_;
         private List<TestData> testList_;
-        public XmlDecoder()
+        public XmlDecoder()//initializaiton
         {
             doc_ = new XDocument();
             testList_ = new List<TestData>();
         }
-        public static List<string> getDLL(string xml)
+        public static List<string> getDLLFiles(string xml)
         {
             XDocument doc = XDocument.Load(xml);
             TestData test;
@@ -154,10 +169,8 @@ namespace TestHarness
                 {
                     test = new TestData();
                     test.testName = xtests[i].Attribute("name").Value;
-                    if (xtests[i].Element("testDriver").Value != "END")
-                    {
-                        temp.Add(xtests[i].Element("testDriver").Value);
-                    }
+                    if(xtests[i].Element("testDriver").Value!="END")
+                    temp.Add(xtests[i].Element("testDriver").Value);
                     IEnumerable<XElement> xtestCode = xtests[i].Elements("library");
                     foreach (var xlibrary in xtestCode)
                     {
@@ -174,8 +187,6 @@ namespace TestHarness
             }
             return temp.Distinct().ToList();
         }
-        private void isEnd(int num, XElement[] test) { 
-}
         public void parse(System.IO.Stream xml, SWTools.BlockingQueue<TestData> q)//decode a xml file and put all test data into a blocking queue
         {
             TestData test;
@@ -183,6 +194,7 @@ namespace TestHarness
             if (doc_ == null)
             {
                 test = new TestData();
+                test.success = false;
                 test.author = "unknown";
                 test.timeStamp = DateTime.Now;
                 test.testName = "END";
@@ -198,6 +210,7 @@ namespace TestHarness
                 for (int i = 0; i < numTests; ++i)
                 {
                     test = new TestData();
+                    test.success = true;
                     test.testCode = new List<string>();
                     test.author = author;
                     test.datetime = datetime;
@@ -225,12 +238,22 @@ namespace TestHarness
     class program{
         public static void Main(string[] args)
         {
-            Command cmd = new Command();
-            cmd.source = "localhost";
-            cmd.direc = "localhost";
-            cmd.Author = "me";
-            cmd.Name = "test";
-            cmd.com = "testcmd";
+            //XmlDecoder decoder = new XmlDecoder();
+            //string path = "../../XMLFile1.xml";
+            //System.IO.FileStream xml = new System.IO.FileStream(path, System.IO.FileMode.Open);
+            //SWTools.BlockingQueue<TestData> p = new SWTools.BlockingQueue<TestData>();
+            //decoder.parse(xml, p);
+            //while (p.size() != 0)
+            //{
+            //    TestData td = p.deQ();
+            //    td.show();
+            //}
+            CommandData cmd = new CommandData();
+            cmd.from = "localhost";
+            cmd.to = "localhost";
+            cmd.testAuthor = "me";
+            cmd.testName = "test";
+            cmd.command = "testcmd";
             cmd.dateTime = "now";
             cmd.url = "localhost";
             cmd.dllFiles.Add("1");

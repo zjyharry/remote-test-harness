@@ -25,9 +25,3 @@ C:\Users\harry\Desktop\project2\reposetory\td2.pdb
 C:\Users\harry\Desktop\project2\td2\obj\Debug\td2.csprojResolveAssemblyReference.cache
 C:\Users\harry\Desktop\project2\td2\obj\Debug\td2.dll
 C:\Users\harry\Desktop\project2\td2\obj\Debug\td2.pdb
-C:\Users\harry\Desktop\project4\reposetory\td2.dll.config
-C:\Users\harry\Desktop\project4\reposetory\td2.dll
-C:\Users\harry\Desktop\project4\reposetory\td2.pdb
-C:\Users\harry\Desktop\project4\td2\obj\Debug\td2.csprojResolveAssemblyReference.cache
-C:\Users\harry\Desktop\project4\td2\obj\Debug\td2.dll
-C:\Users\harry\Desktop\project4\td2\obj\Debug\td2.pdb

@@ -14,11 +14,3 @@ C:\Users\harry\Desktop\project2\XMLDecoder\bin\Debug\BlockingQueue.pdb
 C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.csprojResolveAssemblyReference.cache
 C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.exe
 C:\Users\harry\Desktop\project2\XMLDecoder\obj\Debug\XMLDecoder.pdb
-C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.exe.config
-C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.exe
-C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\XMLDecoder.pdb
-C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\BlockingQueue.dll
-C:\Users\harry\Desktop\project4\XMLDecoder\bin\Debug\BlockingQueue.pdb
-C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.csprojResolveAssemblyReference.cache
-C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.exe
-C:\Users\harry\Desktop\project4\XMLDecoder\obj\Debug\XMLDecoder.pdb

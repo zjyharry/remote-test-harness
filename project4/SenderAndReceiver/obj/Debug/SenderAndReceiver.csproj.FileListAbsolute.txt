@@ -8,13 +8,3 @@ C:\Users\harry\Desktop\project2\SenderAndReceiver\bin\Debug\ITestInterface.pdb
 C:\Users\harry\Desktop\project2\SenderAndReceiver\obj\Debug\SenderAndReceiver.csprojResolveAssemblyReference.cache
 C:\Users\harry\Desktop\project2\SenderAndReceiver\obj\Debug\SenderAndReceiver.exe
 C:\Users\harry\Desktop\project2\SenderAndReceiver\obj\Debug\SenderAndReceiver.pdb
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\SenderAndReceiver.exe.config
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\SenderAndReceiver.exe
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\SenderAndReceiver.pdb
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\BlockingQueue.dll
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\ITestInterface.dll
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\BlockingQueue.pdb
-C:\Users\harry\Desktop\project4\SenderAndReceiver\bin\Debug\ITestInterface.pdb
-C:\Users\harry\Desktop\project4\SenderAndReceiver\obj\Debug\SenderAndReceiver.csprojResolveAssemblyReference.cache
-C:\Users\harry\Desktop\project4\SenderAndReceiver\obj\Debug\SenderAndReceiver.exe
-C:\Users\harry\Desktop\project4\SenderAndReceiver\obj\Debug\SenderAndReceiver.pdb

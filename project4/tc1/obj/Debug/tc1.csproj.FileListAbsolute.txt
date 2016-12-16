@@ -12,8 +12,3 @@ C:\Users\harry\Desktop\project2\reposetory\tc1.dll
 C:\Users\harry\Desktop\project2\reposetory\tc1.pdb
 C:\Users\harry\Desktop\project2\tc1\obj\Debug\tc1.dll
 C:\Users\harry\Desktop\project2\tc1\obj\Debug\tc1.pdb
-C:\Users\harry\Desktop\project4\reposetory\tc1.dll.config
-C:\Users\harry\Desktop\project4\reposetory\tc1.dll
-C:\Users\harry\Desktop\project4\reposetory\tc1.pdb
-C:\Users\harry\Desktop\project4\tc1\obj\Debug\tc1.dll
-C:\Users\harry\Desktop\project4\tc1\obj\Debug\tc1.pdb

@@ -12,17 +12,3 @@ C:\Users\harry\Desktop\project2\Repository\bin\Debug\XMLDecoder.pdb
 C:\Users\harry\Desktop\project2\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\harry\Desktop\project2\Repository\obj\Debug\Repository.exe
 C:\Users\harry\Desktop\project2\Repository\obj\Debug\Repository.pdb
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\Repository.exe.config
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\Repository.exe
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\Repository.pdb
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\BlockingQueue.dll
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\ITestInterface.dll
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\SenderAndReceiver.exe
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\XMLDecoder.exe
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\BlockingQueue.pdb
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\ITestInterface.pdb
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\SenderAndReceiver.pdb
-C:\Users\harry\Desktop\project4\Repository\bin\Debug\XMLDecoder.pdb
-C:\Users\harry\Desktop\project4\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
-C:\Users\harry\Desktop\project4\Repository\obj\Debug\Repository.exe
-C:\Users\harry\Desktop\project4\Repository\obj\Debug\Repository.pdb

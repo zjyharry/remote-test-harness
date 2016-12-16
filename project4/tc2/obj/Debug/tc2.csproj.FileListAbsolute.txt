@@ -11,8 +11,3 @@ C:\Users\harry\Desktop\project2\reposetory\tc2.dll
 C:\Users\harry\Desktop\project2\reposetory\tc2.pdb
 C:\Users\harry\Desktop\project2\tc2\obj\Debug\tc2.dll
 C:\Users\harry\Desktop\project2\tc2\obj\Debug\tc2.pdb
-C:\Users\harry\Desktop\project4\reposetory\tc2.dll.config
-C:\Users\harry\Desktop\project4\reposetory\tc2.dll
-C:\Users\harry\Desktop\project4\reposetory\tc2.pdb
-C:\Users\harry\Desktop\project4\tc2\obj\Debug\tc2.dll
-C:\Users\harry\Desktop\project4\tc2\obj\Debug\tc2.pdb

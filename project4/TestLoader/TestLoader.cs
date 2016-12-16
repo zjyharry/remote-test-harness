@@ -1,4 +1,13 @@
-﻿//paused at 1200
+﻿//Author: Jiayi Zou
+//this is the test loader, which function is load DLL we need, let test driver run the test, and write the log
+//while a test name is END, it is a symbol that the test request is end  
+//all rights reserved
+//version 1.0
+//Jiayi Zou 10/7/16
+//public interface:
+//TestLoader(): constructor
+//public void loadTest(SWTools.BlockingQueue<TestData> p, TestLogger.TestLogger log)//dequeue test in the test queue, and write log to the txt file
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +23,6 @@ namespace TestLoader
 {
    public class TestLoader
     {
-        private void replaceName(TestData testdata)
-        {
-            File.Move(testdata.repo + testdata.author + "_" + testdata.datetime + "_" + testdata.testDriver, testdata.repo + testdata.testDriver);
-        }
         void changename(TestData testData)
         {
             try
@@ -30,7 +35,7 @@ namespace TestLoader
             }
             try
             {
-                replaceName(testData);
+                File.Move(testData.repo + testData.author + "_" + testData.datetime + "_" + testData.testDriver, testData.repo + testData.testDriver);
                 foreach (string lib in testData.testCode)
                 {
                     File.Move(testData.repo + testData.author + "_" + testData.datetime + "_" + lib, testData.repo + lib);

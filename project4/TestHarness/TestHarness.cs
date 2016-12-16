@@ -228,8 +228,8 @@ namespace TestHarness
             (run)child.CreateInstanceAndUnwrap(
                 assemblyName,
                 typeof(run).FullName
-            ); timer.Start();
-            r.execuate(q, LogFolder);timer.Stop();Console.WriteLine("\n-------------this is demo for requirement 12 and the testing time is :{0}--------------\n",timer.ElapsedTimeSpan);
+            );
+            r.execuate(q, LogFolder);
             AppDomain.Unload(child);
             Console.WriteLine("----------------this is demo for requirement 7-------------------\r\nchild appdomain unloaded");
             return;
